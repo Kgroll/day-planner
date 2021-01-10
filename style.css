@@ -10,7 +10,7 @@
     resize: none;
     color: #000000;
     border-left: 1px solid black;
-    padding: 10px;
+    padding: 1px;
   }
    
   .jumbotron {
@@ -25,9 +25,10 @@
     white-space: pre-wrap;
   }
    
-  .time-block{
+  .row-time-block{
     text-align: center;
     border-radius: 15px;
+    
   }
    
   .row {
@@ -36,7 +37,7 @@
     border-top: 1px solid white;;
   }
    
-  .hour {
+  .col-1-hour {
     background-color: #ffffff;
     color: #000000;
     border-top: 1px dashed #000000;
