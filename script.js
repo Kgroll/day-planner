@@ -90,6 +90,9 @@ $("button").on("click", function(event) {
 
 });
 
+var hourUpdater= function() {
+
+
 function hourUpdater() {
     var currentHour = moment().hours();
     $(".time-block").each(function() {
@@ -108,9 +111,9 @@ function hourUpdater() {
             $(this).addClass("future");
         }
     });
+    var checkTime = setInterval(hourUpdater, 15000);
 }
-hourUpdater();
-var checkTime = setInterval(hourUpdater, 15000);
+}
 
 
 
